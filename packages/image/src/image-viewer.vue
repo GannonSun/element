@@ -250,6 +250,7 @@ export default {
       e.preventDefault();
     },
     handleMaskClick() {
+      console.log(this.maskClosable);
       if (this.maskClosable) {
         this.hide();
       }
